@@ -1,0 +1,19 @@
+/* BASIC STYLES HERE */
+
+
+.start-button {
+  min-height: 5vh;
+  min-width: 10vh;
+  margin-top: 35vh;
+}
+
+.start-button-col {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.sticky {
+  position: sticky;
+}

@@ -22,7 +22,8 @@ class QuestionsService {
       AppState.points++
     } else {
       Pop.toast('Nice Try')
-      AppState.points--
+      AppState.points ? AppState.points-- : 0
+
     }
   }
 

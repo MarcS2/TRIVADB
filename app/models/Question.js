@@ -10,16 +10,6 @@ export class Question {
   }
 
 
-  // get buttons() {
-  //   return `<div class="col-3 border border-2 border-primary rounded bg-secondary text-center">
-  //  <h2 role="button" type="button">True</h2>
-  // </div>
-  // <div class="col-3 border border-2 border-primary rounded bg-secondary text-center">
-  //  <h2 role="button" type="button">False</h2>
-  // </div>`
-  // }
-
-
   get questionTemplate() {
     return `<section class="row" id="scoreBoard"> </section>
     <section class="row"> 
